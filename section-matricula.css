@@ -1,0 +1,120 @@
+
+
+.matricula{
+    display: flex;
+    justify-content: space-around;
+
+    height: 800px;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.logo-paragrafo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.logo-paragrafo p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.curso-livre{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+/*   CURSO LIVRE 150 */
+.curso-livre150{
+    padding: 10px;
+    height: 250px;
+    width: 230px;
+    
+    background-color: #f7ef99;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 20px;
+}
+.curso-livre150 h2, .curso-livre100 h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.curso-livre150 p, .curso-livre100 p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* CURSO LIVRE 100% */
+
+.curso-livre100{
+    padding: 20px;
+    height: 250px;
+    width: 230px;
+    
+    background-color: #cadf9e;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 20px;
+}
+
+/* CURSO LIVRE 2 */
+.curso-livre2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+
+/*   CURSO LIVRE 95 */
+.curso-livre95{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px;
+    height: 250px;
+    width: 230px;
+    
+    background-color: #b8cdf8;
+
+    border-radius: 20px;
+   
+}
+.curso-livre95 h2{
+    font-size: 30px;
+}
+.curso-livre95 p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*   CURSO LIVRE 40 */
+.curso-livre40{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 20px;
+    height: 250px;
+    width: 230px;
+    
+    background-color: #ff87ab;
+
+    border-radius: 20px;
+}
+.curso-livre40 h2{
+    font-size: 30px;
+}
+.curso-livre40 p{
+    font-size: 16px;
+    font-weight: 300;
+}

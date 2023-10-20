@@ -1,0 +1,129 @@
+
+
+.etapas{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.etapas h3{
+    font-size: 30px;
+    font-family: 'rubik';
+    font-weight: 400;
+    color: #22053d;
+    margin-bottom: 40px;
+}
+.itens-etapas{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+    
+    
+}
+/* abordagem */
+.abordagem{
+    display: flex;
+    flex-direction: column;
+}
+.abordagem h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d;
+}
+.abordagem span{
+    font-size: 18px;
+    font-family: 'poppins';
+    color: #10001f;
+
+}
+
+/*     PROFESSORES */
+.professores h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d; 
+
+}
+.professores span{
+    font-size: 18px;
+    font-family: 'poppins';
+    
+    color: #10001f;
+}
+
+/*     HABILIDADES */
+
+.habilidade h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d;
+
+}
+.habilidade p{
+    font-size: 18px;
+    font-family: 'poppins';
+    
+    color: #10001f;
+}
+
+/*     ETAPAS 2 */
+.itens-etapas2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+
+/*   FEEDBACK */
+.feedback h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d;
+
+}
+.feedback p{
+    font-size: 18px;
+    font-family: 'poppins';
+    
+    color: #10001f;
+}
+
+/* PORTIFOLIO */
+.portifolio-destaque h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d;
+
+}
+
+.portifolio-destaque p{
+    font-size: 18px;
+    font-family: 'poppins';
+    
+    color: #10001f;
+}
+
+/* APRENDIZADO */
+.aprendizado h3{
+    font-size: 24px;
+    font-family: 'rubik';
+    font-weight: 500;
+
+    color: #22053d;
+}
+.aprendizado p{
+    font-size: 18px;
+    font-family: 'poppins';
+    
+    color: #10001f;
+}

@@ -1,0 +1,271 @@
+
+
+.container-emprego{
+    margin: 20px;
+    
+    height: 1800px;
+    width: 95%;
+    background-color: #10001f;
+    border-radius: 20px;
+}
+
+.container-emprego{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+/*    PARAGRAFO1 */
+.paragrafo1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.paragrafo1 h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+.paragrafo1 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'poppins';
+    font-weight: 300;
+}
+/* paragrafo 2 */
+.paragrafo2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.paragrafo2 p{
+    color: white;
+    padding-top: 20px;
+    font-weight: 300;
+   
+
+}
+.paragrafo2 img{
+    border-radius: 20px;
+}
+.ajuda{
+    margin-top: 40px;
+}
+.ajuda h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+/* PLANOS */
+.planos{
+    display: flex;
+    gap: 40px;
+
+}
+
+/*   TRABALHOS */
+.trabalhos{
+    display: flex;
+    flex-direction: column;
+
+    height: 315px;
+    padding: 40px;
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: #f7ef99;
+    
+
+}
+.trabalhos i{
+   font-size: 30px;
+   
+
+}
+.trabalhos h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #10001f;
+    padding-bottom: 20px;
+}
+.trabalhos p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/*   CARREIRA */
+.carreira1{
+    display: flex;
+    flex-direction: column;
+
+    height: 315px;
+    padding: 40px;
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: #cbdf9e;
+}
+.carreira1 i{
+    font-size: 30px;
+}
+.carreira1 h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #10001f;
+
+    padding-bottom: 20px;
+}
+.carreira1 p{
+    font-size: 16px;
+    font-weight: 200; 
+}
+
+/* ENTREVISTAS */
+.entrevistas{
+    display: flex;
+    flex-direction: column;
+
+    height: 315px;
+    padding: 40px;
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: #b8cef8;
+}
+.entrevistas i{
+    font-size: 30px;
+}
+.entrevistas h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #10001f;
+
+    padding-bottom: 20px;
+}
+.entrevistas p{
+    font-size: 16px;
+    font-weight: 200; 
+}
+/*    CONEXAO */
+.conexao{
+    display: flex;
+    flex-direction: column;
+
+    height: 315px;
+    padding: 40px;
+    width: 260px;
+    border-radius: 12px;
+
+    background-color: #ff87ab;
+}
+.conexao i{
+    font-size: 30px;
+}
+.conexao h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #10001f;
+
+    padding-bottom: 20px;
+}
+.conexao p{
+    font-size: 16px;
+    font-weight: 200; 
+
+    
+}
+
+/* PROFISSSAO ITENS */
+.profissao{
+    display: flex;
+    /* justify-content: space-around;  */
+    gap: 100px;
+    padding-top: 100px;
+}
+
+/*      ofertas */
+.ofertas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.ofertas h2{
+    font-size: 50px;
+    color: #cd94ff;
+
+}
+.ofertas p{
+    color: white;
+    font-weight: 200;
+
+}
+/* CURSO GARANTIDO */
+.curso-garantido{
+    display: flex;
+    gap: 20px;
+}
+
+/*   EXPERIENCIA */
+.experiencia{
+    display: flex;
+    gap: 20px;
+}
+
+/* BTNS BOTTAO */
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btns button{
+    width: 100%;
+}
+
+/*    PERFIL */
+.perfil{
+    height: 500px;
+    width: 100%;
+    background-color: #c09fdf05;
+    
+    border-radius: 12px;
+}
+.imagens-perfil{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.imagens-perfil img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+
+/*   INFO */
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.info h3{
+    color: white;
+    font-weight: 300;
+}
+.info p{
+    color: rgba(255, 255, 255, 0.486);
+    font-weight: 300;
+}
+.itens-paragrafo{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.322);
+    font-weight: 200;
+}

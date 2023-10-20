@@ -1,0 +1,128 @@
+.desenvolvedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 40px;
+}
+.front-end h1{
+    display: flex;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+/* ITENS 1 */
+.iten1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.iten1 span{
+    font-size: 22px;
+    font-family: 'popins';
+    font-weight: 400;
+    color: #10001f;
+}
+/* ITENS 2 */
+.itens2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.itens2 span{
+    font-size: 22px;
+    font-family: 'popins';
+    font-weight: 400;
+    color: #10001f;
+}
+
+
+
+/* VAGAS */
+
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    
+}
+/* ITENS VAGAS 1 */
+.itens-vagas1{
+    height: 100px;
+    width: 600px;
+    padding-top: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f5fa;
+    border-radius: 10px;
+
+    
+}
+
+/* ITENS VAGAS 1  TITULO */
+.itens-vagas1 h4{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'rubik';
+    font-size: 30px;
+    color: #7b1fd1;
+    font-weight: 500;
+
+   
+}
+
+/* ITENS VAGAS1 SPAN */
+.itens-vagas1 span{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+/*    ITENS VAGAS 2 */
+
+.itens-vagas2{
+    background-color: #f6f5fa;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+.itens-vagas2 h4{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'rubik';
+    font-size: 30px;
+    color: #7b1fd1;
+    font-weight: 500;
+
+
+}
+.itens-vagas2 span{
+    font-size: 16px;
+    font-weight: 200;
+
+    display: flex;
+    
+    
+}
+
+/*      BOTAO */
+.btn button{
+    margin-top: 40px;
+    width: 50%;
+    transition: all .2s ease-out;
+
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #d3a592;
+    
+
+}

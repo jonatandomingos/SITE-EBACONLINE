@@ -1,0 +1,68 @@
+
+
+.professor{
+    
+    height: 700px;
+    width: 100%;
+    background-color: white;
+
+}
+.itens-professor{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    gap: 40px;
+}
+.perfil-professor{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* padding: 60px; */
+}
+.perfil-professor h2{
+    font-size: 50px;
+    font-weight: 400;
+
+    color: #22053d;
+}
+.perfil-professor img{
+    height: 400px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+/* DESCRIÇAO */
+.descriçao{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 40px;
+}
+.descriçao h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #22053d;
+}
+.descriçao p{
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.logo1{
+    display: flex;
+    gap: 40px;
+}
+
+
+.logo2{
+    display: flex;
+    gap: 20px;
+}

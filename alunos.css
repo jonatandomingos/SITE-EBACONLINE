@@ -1,0 +1,16 @@
+
+
+.alunos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.alunos span{
+    font-size: 30px;
+    color: white;
+}
+.alunos p{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}

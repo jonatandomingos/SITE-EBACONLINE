@@ -1,0 +1,118 @@
+
+
+.footer{
+    height: 800px;
+    width: 100%;
+
+    padding: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-color: #22053d;
+    
+    
+}
+
+.areas-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.areas-footer img{
+    height: 100px;
+}
+
+/* IMAGENS FOOTER */
+
+.imgs-logos{
+    display: flex;
+    column-gap: 20px;
+}
+
+.areas-footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.areas-footer1 p{
+    color: gray;
+    padding-bottom: 20px;
+    
+}
+
+/*  AREAS */
+.areas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.areas h2, .projetos-areas h2, .empresas h2{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+.areas span, .projetos-areas span, .empresas span{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+
+/*    PROJETOS AREAS */
+.projetos-areas{
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+}
+/* EMPRESAS */
+.empresas{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+/*    CONTATOS */
+
+.contatos{
+    padding-top: 40px;
+    border-top:  1px solid gray;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+/*    WHATSAPP */
+
+.WhatsApp, .telefone, .emails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.WhatsApp h2, .telefone h2, .emails h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.WhatsApp p, .telefone p, .emails p{
+    color: white;
+
+}
+
+/*  ENDERECO */
+.ende{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.ende p{
+    font-size: 16px;
+    color: gray;
+}

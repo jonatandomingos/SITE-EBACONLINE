@@ -1,0 +1,36 @@
+
+
+.perguntas-frequentes{
+    height: 500px;
+    width: 100%;
+}
+
+.titulo-perguntas{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+
+    row-gap: 40px;
+
+}
+.titulo-perguntas h3{
+    font-size: 40px;
+    color: #22053d;
+    font-weight: 400;
+}
+.titulo-perguntas p{
+    font-size: 20px;
+    color: #22053d;
+    font-family: 'rubik';
+    font-weight: 500;
+    padding-bottom: 40px;
+    border-bottom: 0.1px solid gray;
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.titulo-perguntas p i{
+    font-size: 40px;
+    color: orange;
+}

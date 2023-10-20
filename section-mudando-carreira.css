@@ -1,0 +1,177 @@
+
+
+.mudandocarreira{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 850px;
+    /* height: auto; */
+    background-color: #10001f;
+}
+
+
+.itenscarreira{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 40px;
+}
+.itenscarreira h2{
+    font-size: 50px;
+    color: white;
+
+}
+
+/* datas */
+.datas{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    border-radius: 20px;
+
+    padding: 20px;
+    width: 500px;
+    background-image: linear-gradient(137deg, rgba(153,0,255,1) 0%, rgba(55,0,255,1) 100%);
+}
+/*    datas1 */
+.data1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.data1 p{
+    color: white;
+    font-weight: 300;
+}
+
+
+/* DESCONTOS */
+.descontos{
+    display: flex;
+    gap: 50px;
+}
+.desconto1 p, .desconto2 p{
+    color: white;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.desconto1 p{
+    color: gray;
+}
+.desconto1 h2{
+    color: #fe9e75;
+}
+
+/* VALOR */
+
+.valor{
+    display: flex;
+    gap: 40px;
+}
+.valortotal p{
+    color: gray;
+
+}
+.valortotal h2{
+    font-size: 26px;
+    font-weight: 300;
+}
+.dinheirodevolta{
+    /* height: 50px; */
+    /* width: 450px; */
+    padding: 10px;
+    border: 1px solid #fe9e75;
+    border-radius: 8px;
+}
+.dinheirodevolta span{
+    padding: 10px 20px;
+    color: #fe9e75;
+    font-weight: 300;   
+}
+
+/*  FORMA DE PAGAMENTO */
+.formapagamento p{
+    color: gray; 
+}
+
+/* FORMULARIO 2 */
+.formulario2{
+    display: flex;
+    
+}
+.formsformulario{
+    margin-top: 60px;
+    height: 710px;
+    width: 500px;
+
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, rgba(34,5,61,1) 0%, rgba(29,0,33,1) 97%)
+}
+
+.inicios{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.iniciovagas p, .restamvagas{
+    color: white;
+    font-weight: 300;
+}
+
+.tituloforms{
+    display: flex;
+    
+}
+.tituloforms p{
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/* INPUTS */
+.todosinputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.todosinputs input{
+    height: 60px;
+    width: 450px;
+    margin-left: 20px;
+
+    border-radius: 8px;
+}
+
+.todosinputs input::placeholder{
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.termoscondiçoes{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.termoscondiçoes i{
+    font-size: 30px;
+    color: gray;
+}
+.termoscondiçoes p{
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.termoscondiçoes p strong{
+    text-decoration: underline;
+}
+
+/* botoes */
+.botoesbtns button{
+    width: 450px;
+    margin-left: 20px;
+
+    cursor: pointer;
+}

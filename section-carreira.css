@@ -1,0 +1,140 @@
+
+.carreira{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20%;
+    background-image: linear-gradient(137deg, rgba(35,0,173,1) 0%, rgba(84,0,148,1) 60%);
+}
+.engenheiro{
+    padding: 40px;
+}
+.engenheiro button{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+
+    font-family: 'rubik';
+    font-weight: 400;
+
+    font-size: 16px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-top: 40px;
+}
+.titulo h2{
+    font-size: 25px;
+    font-family: 'rubik';
+    color:  white;
+    display: flex;
+    
+}
+.titulo h1{
+    padding-top: 20px;
+
+    font-size: 45px;
+    font-family: 'rubik';
+    font-weight: 500;
+    
+    color: white;
+}
+.lista{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.lista1{
+    display: flex;
+    gap: 20px;
+}
+.lista1 span{
+    font-size: 20px;
+    font-family: 'rubik';
+    font-weight: 300;
+    color: white;
+}
+
+.formulario{
+    height: 500px;
+    width: 400px;
+    background-color: #22053d;
+
+    border-radius: 20px;
+    padding: 20px;
+}
+/* inicio */
+.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio span{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+
+}
+/* button */
+
+button{
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 16px;
+    background-color: #fe9e76;
+    color: white;
+}
+/* formulario */
+.formulario{
+    margin: 100px;
+}
+.form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.form input{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+    outline:  none;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+.form input::placeholder{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.aceito{
+    display: flex;
+}
+.aceito i{
+    font-size: 30px;
+    color: rgb(117, 117, 117);
+}
+.aceito p{
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(117, 117, 117);
+}
+.aceito p a{
+    color: rgb(117, 117, 117);
+    
+}

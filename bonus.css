@@ -1,0 +1,78 @@
+.bonus{
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    row-gap: 40px;
+    padding: 40px;
+}
+
+.itensbonus{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    padding: 20px;
+    background-color: #ffeee3;
+    width: 60%;
+    height: 300px;
+    border-radius: 12px;
+
+}
+.bonus h2{
+    font-size: 40px;
+    color: #10001f;
+    font-weight: 400;
+}
+
+.bonus p{
+    font-size: 18px;
+    color: #22053d;
+    font-weight: 300;
+}
+.imgsbonus img{
+    height: 300px;
+    width: 400px;
+
+    border-radius: 12px;
+ 
+}
+
+/* TIME LIFE */
+
+.timelife{
+    display: flex;
+
+
+    height: 200px;
+    width: 90%;
+    background-color: #ffeee3;
+    margin: 40px;
+    border-radius: 12px;
+
+
+}
+.icone{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+
+.acess{
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    row-gap: 10px;
+    padding-top: 40px;
+}
+.acess h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.acess p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+}

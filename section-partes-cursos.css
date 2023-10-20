@@ -1,0 +1,59 @@
+
+
+.partescursos{
+    padding-top: 70%;
+}
+
+.titulocursos{
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.titulocursos h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #22053d;
+}
+.titulocursos p{
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #10001f;
+}
+.partes{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    row-gap: 60px;
+
+    cursor: pointer;
+}
+.partes span{
+    font-size: 20px;
+    font-family: 'rubik';
+    font-weight: 500;
+    color: #22053d;
+
+    
+}
+
+/*    BONUS */
+
+
+/*  */
+/* ALUNOS */
+/* .alunos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.alunos span{
+    font-size: 30px;
+    color: white;
+}
+.alunos p{
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+} */

@@ -1,0 +1,67 @@
+
+
+.cursos{
+    padding: 80px;
+    background-color: #2300ad;
+}
+.cursos h1{
+    font-size: 40px;
+    color: white;
+    
+}
+
+/* PROGRAMAÇAO */
+
+.programaçao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    padding-top: 40px;
+}
+.programaçao h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.programaçao p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.411);
+}
+
+/* DESIGNER */
+.designer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.designer h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+.designer p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.411);
+}
+
+/* PORTIFOLIO */
+.portifolio{
+    display: flex;
+    justify-content: space-between;
+}
+.portifolio h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+.portifolio p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.411);
+    display: flex;
+    text-align: center;
+}

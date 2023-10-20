@@ -1,0 +1,91 @@
+
+
+.informaçao{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #10001f;
+}
+.informaçao-completa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+/* informaçao */
+.informaçao-completa h2{
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+.informaçao-completa span{
+    font-family: 'popins';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+/*  MENTORIA*/
+
+.mentoria{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mentoria h2{
+    font-family: 'rubik';
+
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+
+
+.mentoria span{
+    font-family: 'popins';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+/* EMPREGO */
+
+.emprego{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.emprego h2{
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+.emprego span{
+    font-family: 'popins';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+/* PROJETOS */
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.projetos h2{
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+.projetos span{
+    font-family: 'popins';
+    font-weight: 400;
+    font-size: 20px;
+    
+    color: white;
+}

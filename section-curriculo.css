@@ -1,0 +1,196 @@
+
+
+.curriculo{
+    height: 200px;
+    width: 100%;
+    background-image: url(./imagens/imagens.jpg), linear-gradient(rgba(49, 107, 189, 0.72) 0%, rgba(45, 103, 189, 0.94) 100%);
+}
+
+
+.itens-curriculo{
+    
+    display: flex;
+    gap: 200px;
+    
+}
+.titulo-curriculo{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.titulo-curriculo h2{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.itens-perfil{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    margin-top: 150px;
+    padding: 20px;
+
+    height: 820px;
+    width: 632px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 10%);
+    background-color: #fff;
+
+}
+
+/* PERFIL */
+.imagens-nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itens-nomes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*   IMAGENS */
+.imagens-nome img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+/* NOME */
+.imagens-nome h2{
+    font-size: 18px;
+    
+}
+
+/*    SALARIO */
+.salario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.salario p{
+    font-size: 20px;
+    font-weight: 300;
+
+    color: #10001f;
+}
+.salario h2{
+    font-size: 28px;
+    color: #10001f;
+
+}
+.salario h2 strong{
+    color: gray;
+    font-weight: 500;
+}
+.salario span{
+    font-size: 14px;
+    font-weight: 300;
+    color: #838285;
+}
+
+
+
+/*     HABILIDADES */
+
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+}
+
+.habilidades p{
+    /* padding-top: 80px; */
+    font-size: 30px;
+    font-weight: 500;
+    color: #22053d;
+}
+
+.habilidades1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+   
+}
+
+.habilidades2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+  
+}
+.habilidades3{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 10px;
+    gap: 60px;
+    padding-bottom: 80px;
+    
+}
+
+/*   LINHA 1 HABILIDADES */
+.html-css{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.html-css p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #10001f;
+    padding-top: 20px;
+}
+
+
+/*   CONTAINER CERTIFICADO */
+
+.containercertificado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartaocertificado{
+    display: flex;
+
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+
+
+}
+
+
+.certificado1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    row-gap: 40px;
+
+    border:  1px solid black;
+}
+
+.certificado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    background-color: #fe9e76;
+    
+
+}
